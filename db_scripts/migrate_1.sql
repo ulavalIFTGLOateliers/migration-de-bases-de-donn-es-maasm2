@@ -9,15 +9,6 @@ INSERT INTO  band(bandname, creation, genre) VALUES
 ( 'Crazy duo', 2015, 'rock'),
 ('Luna', 2009, 'classical'),
 ('Mysterio', 2019, 'pop');
-SELECT * FROM band;
-
-
-
-
-
-
-
-SELECT * FROM singer;
 
 ALTER TABLE singer RENAME TO musician;
 
